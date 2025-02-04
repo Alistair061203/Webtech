@@ -17,22 +17,32 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12:">
+
                 <div class="col-lg-2"></div>
                 <div class="col-lg-6">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Username</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+                        <br><br>
 
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Password">
+                        <form method="POST" action ="/login">
+                            @csrf()
+                            <div class="card">
                                 <br>
+                                <label for="exampleFormControlInput1" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Username">
 
-                            <div><button type="button" class="btn btn-primary">Login</button></div>
-                        </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Password">
+                                    <br>
+
+                                    <div><button type="submit" class="btn btn-primary">Login</button></div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
+                </div>
 </body>
 
 </html>

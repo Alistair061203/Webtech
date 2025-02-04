@@ -7,4 +7,6 @@ Route::get('/', function () {
 });
 
 Route::get('/login', 'App\Http\Controllers\LoginController@index');
+Route::post('/login', 'App\Http\Controllers\LoginController@auth');
+
 Route::get('/Inventory', 'App\Http\Controllers\InventoryController@index');
