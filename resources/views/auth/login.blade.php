@@ -28,6 +28,7 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Password">
+                                <br>
 
                             <div><button type="button" class="btn btn-primary">Login</button></div>
                         </div>
