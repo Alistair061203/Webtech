@@ -41,6 +41,29 @@
                                     <button class = "btn btn-info btn=sm"> Edit</button>
                                     <button class = "btn btn-danger btn=sm"> Delete</button>
                                 </td>
+                            </tr>
+
+                            <tr>
+                                <td>Car</td>
+                                <td>Honda Civic</td>
+                                <td>10</td>
+                                <td>1200,000</td>
+                                <td>
+                                    <button class = "btn btn-info btn=sm"> Edit</button>
+                                    <button class = "btn btn-danger btn=sm"> Delete</button>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>Mobile Phone</td>
+                                <td>Samsung</td>
+                                <td>45</td>
+                                <td>51,746</td>
+                                <td>
+                                    <button class = "btn btn-info btn=sm"> Edit</button>
+                                    <button class = "btn btn-danger btn=sm"> Delete</button>
+                                </td>
 
                             </tr>
                         </tbody>
